@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= full_title yield :title %></title>
+    <%= render "layouts/head" %>
+  </head>
+  <body>
+    <div>
+      <%= render "layouts/header" %>
+      <div>
+        <%= yield %>
+      </div>
+      <%= render "layouts/footer" %>
+    </div>
+  </body>
+</html>
